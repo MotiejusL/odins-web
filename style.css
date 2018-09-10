@@ -441,6 +441,13 @@ template {
       .nav-container nav ul li:nth-child(5) {
         padding-left: 18px; }
 
+@media only screen and (max-width: 780px) {
+  .nav-container {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  ul {
+    float: left !important; } }
 header button, .curriculum button, .success-stories button {
   display: inline-block;
   color: white;
@@ -454,7 +461,6 @@ header button, .curriculum button, .success-stories button {
   border-style: none; }
 
 header {
-  height: 290px;
   padding-bottom: 60px;
   text-align: center; }
   header h2 {
@@ -476,7 +482,7 @@ header {
 .header-img {
   height: 523px;
   background-image: url("header.svg");
-  background-repeat: no-repeat; }
+  background-size: cover; }
 
 .how-it-works .cont p, .cont2 p, .success-stories .cont4 .box2 .content p {
   color: rgba(74, 74, 74, 0.7);
@@ -492,8 +498,7 @@ header {
 
 .how-it-works {
   padding-top: 100px;
-  margin-bottom: 70px;
-  height: 800px; }
+  margin-bottom: 70px; }
   .how-it-works .cont {
     padding: 0 15px;
     margin: auto;
@@ -550,6 +555,15 @@ header {
           font-size: 18px;
           text-transform: uppercase; }
 
+@media only screen and (max-width: 900px) {
+  .box1 {
+    height: 173.8461538462px !important;
+    width: 195.3846153846px !important; }
+    .box1 img {
+      height: 123.0769230769px !important;
+      width: 123.0769230769px !important; }
+    .box1 h3 {
+      font-size: 13.8461538462px !important; } }
 .success-stories {
   padding-top: 50px;
   text-align: center;
@@ -604,6 +618,13 @@ header {
           font-size: 18px;
           line-height: 33.84px; }
 
+@media only screen and (max-width: 1200px) {
+  [class*="grid-"] {
+    width: 100%; }
+    [class*="grid-"] .box2 {
+      width: 100% !important; }
+      [class*="grid-"] .box2 .content {
+        width: calc(100% - 100px) !important; } }
 footer {
   height: 277px; }
   footer .flex {
